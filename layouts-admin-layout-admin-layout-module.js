@@ -1,5 +1,18 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["layouts-admin-layout-admin-layout-module"],{
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component.html":
+/*!*****************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component.html ***!
+  \*****************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\" content\">\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 5px;\">\n          <img src=\"./assets/img/curso/imperio-broze/0.png\" />\n      </div>\n      <div class=\" card card-chart\" style=\"margin-top: 8px; margin-bottom: 5px; \">\n        <a href=\"http://mon.net.br/y27nj\" target=\"_blank\" class=\"btn btn-danger texto-responsivo-md\">SIM, EU QUERO O MELHOR CURSO DE BROZEAMENTO</a>\n      </div>\n    </div>\n    <div class=\" col-lg-7\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 0px;\">\n            <div class=\"embed-responsive embed-responsive-16by9\">\n              <iframe \n                src=\"https://www.youtube.com/embed/Y3yCZOaQSJk?start=32\" \n                frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n        </div>\n      </div>\n      <div class=\" card card-chart\" style=\"margin-bottom: 10px;\">\n        <a href=\"https://imperiodobronze.com.br/?mcr=AFU10744381\" target=\"_blank\" class=\"btn btn-info texto-responsivo-lg\">QUERO SABER MAIS SOBRE O MELHOR CURSO DE BROZEAMENTO</a>\n      </div>\n    </div>\n  </div>\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n        <img src=\"./assets/img/curso/imperio-broze/1.jpg\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img src=\"./assets/img/curso/imperio-broze/2.png\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img src=\"./assets/img/curso/imperio-broze/3.jpg\" />\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/dashboard/dashboard.component.html":
 /*!************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/dashboard/dashboard.component.html ***!
@@ -202,6 +215,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../pages/dashboard/dashboard.component */ "./src/app/pages/dashboard/dashboard.component.ts");
 /* harmony import */ var src_app_pages_maquiagem_web_maquiagem_web_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/pages/maquiagem-web/maquiagem-web.component */ "./src/app/pages/maquiagem-web/maquiagem-web.component.ts");
 /* harmony import */ var src_app_pages_unha_curso_unha_curso01_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/pages/unha-curso/unha-curso01.component */ "./src/app/pages/unha-curso/unha-curso01.component.ts");
+/* harmony import */ var src_app_pages_cursos_brozeamento_imperio_bronze_imperio_bronze_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component */ "./src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component.ts");
+
 
 
 
@@ -209,8 +224,448 @@ __webpack_require__.r(__webpack_exports__);
 var AdminLayoutRoutes = [
     { path: "dashboard", component: _pages_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_1__["DashboardComponent"] },
     { path: "maquiagem-web", component: src_app_pages_maquiagem_web_maquiagem_web_component__WEBPACK_IMPORTED_MODULE_2__["MaquiagemWebComponent"] },
-    { path: "unha-curso01", component: src_app_pages_unha_curso_unha_curso01_component__WEBPACK_IMPORTED_MODULE_3__["UnhaCurso01Component"] }
+    { path: "unha-curso01", component: src_app_pages_unha_curso_unha_curso01_component__WEBPACK_IMPORTED_MODULE_3__["UnhaCurso01Component"] },
+    { path: "imperio-bronze", component: src_app_pages_cursos_brozeamento_imperio_bronze_imperio_bronze_component__WEBPACK_IMPORTED_MODULE_4__["ImperioBrozeComponent"] }
 ];
+
+
+/***/ }),
+
+/***/ "./src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component.ts":
+/*!*************************************************************************************!*\
+  !*** ./src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component.ts ***!
+  \*************************************************************************************/
+/*! exports provided: ImperioBrozeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImperioBrozeComponent", function() { return ImperioBrozeComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var chart_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! chart.js */ "./node_modules/chart.js/dist/Chart.js");
+/* harmony import */ var chart_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(chart_js__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+var ImperioBrozeComponent = /** @class */ (function () {
+    function ImperioBrozeComponent() {
+        this.clicked = true;
+        this.clicked1 = false;
+        this.clicked2 = false;
+    }
+    ImperioBrozeComponent.prototype.ngOnInit = function () {
+        var gradientChartOptionsConfigurationWithTooltipBlue = {
+            maintainAspectRatio: false,
+            legend: {
+                display: false
+            },
+            tooltips: {
+                backgroundColor: '#f5f5f5',
+                titleFontColor: '#333',
+                bodyFontColor: '#666',
+                bodySpacing: 4,
+                xPadding: 12,
+                mode: "nearest",
+                intersect: 0,
+                position: "nearest"
+            },
+            responsive: true,
+            scales: {
+                yAxes: [{
+                        barPercentage: 1.6,
+                        gridLines: {
+                            drawBorder: false,
+                            color: 'rgba(29,140,248,0.0)',
+                            zeroLineColor: "transparent",
+                        },
+                        ticks: {
+                            suggestedMin: 60,
+                            suggestedMax: 125,
+                            padding: 20,
+                            fontColor: "#2380f7"
+                        }
+                    }],
+                xAxes: [{
+                        barPercentage: 1.6,
+                        gridLines: {
+                            drawBorder: false,
+                            color: 'rgba(29,140,248,0.1)',
+                            zeroLineColor: "transparent",
+                        },
+                        ticks: {
+                            padding: 20,
+                            fontColor: "#2380f7"
+                        }
+                    }]
+            }
+        };
+        var gradientChartOptionsConfigurationWithTooltipPurple = {
+            maintainAspectRatio: false,
+            legend: {
+                display: false
+            },
+            tooltips: {
+                backgroundColor: '#f5f5f5',
+                titleFontColor: '#333',
+                bodyFontColor: '#666',
+                bodySpacing: 4,
+                xPadding: 12,
+                mode: "nearest",
+                intersect: 0,
+                position: "nearest"
+            },
+            responsive: true,
+            scales: {
+                yAxes: [{
+                        barPercentage: 1.6,
+                        gridLines: {
+                            drawBorder: false,
+                            color: 'rgba(29,140,248,0.0)',
+                            zeroLineColor: "transparent",
+                        },
+                        ticks: {
+                            suggestedMin: 60,
+                            suggestedMax: 125,
+                            padding: 20,
+                            fontColor: "#9a9a9a"
+                        }
+                    }],
+                xAxes: [{
+                        barPercentage: 1.6,
+                        gridLines: {
+                            drawBorder: false,
+                            color: 'rgba(225,78,202,0.1)',
+                            zeroLineColor: "transparent",
+                        },
+                        ticks: {
+                            padding: 20,
+                            fontColor: "#9a9a9a"
+                        }
+                    }]
+            }
+        };
+        var gradientChartOptionsConfigurationWithTooltipRed = {
+            maintainAspectRatio: false,
+            legend: {
+                display: false
+            },
+            tooltips: {
+                backgroundColor: '#f5f5f5',
+                titleFontColor: '#333',
+                bodyFontColor: '#666',
+                bodySpacing: 4,
+                xPadding: 12,
+                mode: "nearest",
+                intersect: 0,
+                position: "nearest"
+            },
+            responsive: true,
+            scales: {
+                yAxes: [{
+                        barPercentage: 1.6,
+                        gridLines: {
+                            drawBorder: false,
+                            color: 'rgba(29,140,248,0.0)',
+                            zeroLineColor: "transparent",
+                        },
+                        ticks: {
+                            suggestedMin: 60,
+                            suggestedMax: 125,
+                            padding: 20,
+                            fontColor: "#9a9a9a"
+                        }
+                    }],
+                xAxes: [{
+                        barPercentage: 1.6,
+                        gridLines: {
+                            drawBorder: false,
+                            color: 'rgba(233,32,16,0.1)',
+                            zeroLineColor: "transparent",
+                        },
+                        ticks: {
+                            padding: 20,
+                            fontColor: "#9a9a9a"
+                        }
+                    }]
+            }
+        };
+        var gradientChartOptionsConfigurationWithTooltipOrange = {
+            maintainAspectRatio: false,
+            legend: {
+                display: false
+            },
+            tooltips: {
+                backgroundColor: '#f5f5f5',
+                titleFontColor: '#333',
+                bodyFontColor: '#666',
+                bodySpacing: 4,
+                xPadding: 12,
+                mode: "nearest",
+                intersect: 0,
+                position: "nearest"
+            },
+            responsive: true,
+            scales: {
+                yAxes: [{
+                        barPercentage: 1.6,
+                        gridLines: {
+                            drawBorder: false,
+                            color: 'rgba(29,140,248,0.0)',
+                            zeroLineColor: "transparent",
+                        },
+                        ticks: {
+                            suggestedMin: 50,
+                            suggestedMax: 110,
+                            padding: 20,
+                            fontColor: "#ff8a76"
+                        }
+                    }],
+                xAxes: [{
+                        barPercentage: 1.6,
+                        gridLines: {
+                            drawBorder: false,
+                            color: 'rgba(220,53,69,0.1)',
+                            zeroLineColor: "transparent",
+                        },
+                        ticks: {
+                            padding: 20,
+                            fontColor: "#ff8a76"
+                        }
+                    }]
+            }
+        };
+        var gradientChartOptionsConfigurationWithTooltipGreen = {
+            maintainAspectRatio: false,
+            legend: {
+                display: false
+            },
+            tooltips: {
+                backgroundColor: '#f5f5f5',
+                titleFontColor: '#333',
+                bodyFontColor: '#666',
+                bodySpacing: 4,
+                xPadding: 12,
+                mode: "nearest",
+                intersect: 0,
+                position: "nearest"
+            },
+            responsive: true,
+            scales: {
+                yAxes: [{
+                        barPercentage: 1.6,
+                        gridLines: {
+                            drawBorder: false,
+                            color: 'rgba(29,140,248,0.0)',
+                            zeroLineColor: "transparent",
+                        },
+                        ticks: {
+                            suggestedMin: 50,
+                            suggestedMax: 125,
+                            padding: 20,
+                            fontColor: "#9e9e9e"
+                        }
+                    }],
+                xAxes: [{
+                        barPercentage: 1.6,
+                        gridLines: {
+                            drawBorder: false,
+                            color: 'rgba(0,242,195,0.1)',
+                            zeroLineColor: "transparent",
+                        },
+                        ticks: {
+                            padding: 20,
+                            fontColor: "#9e9e9e"
+                        }
+                    }]
+            }
+        };
+        var gradientBarChartConfiguration = {
+            maintainAspectRatio: false,
+            legend: {
+                display: false
+            },
+            tooltips: {
+                backgroundColor: '#f5f5f5',
+                titleFontColor: '#333',
+                bodyFontColor: '#666',
+                bodySpacing: 4,
+                xPadding: 12,
+                mode: "nearest",
+                intersect: 0,
+                position: "nearest"
+            },
+            responsive: true,
+            scales: {
+                yAxes: [{
+                        gridLines: {
+                            drawBorder: false,
+                            color: 'rgba(29,140,248,0.1)',
+                            zeroLineColor: "transparent",
+                        },
+                        ticks: {
+                            suggestedMin: 60,
+                            suggestedMax: 120,
+                            padding: 20,
+                            fontColor: "#9e9e9e"
+                        }
+                    }],
+                xAxes: [{
+                        gridLines: {
+                            drawBorder: false,
+                            color: 'rgba(29,140,248,0.1)',
+                            zeroLineColor: "transparent",
+                        },
+                        ticks: {
+                            padding: 20,
+                            fontColor: "#9e9e9e"
+                        }
+                    }]
+            }
+        };
+        this.canvas = document.getElementById("chartLineRed");
+        this.ctx = this.canvas.getContext("2d");
+        var gradientStroke = this.ctx.createLinearGradient(0, 230, 0, 50);
+        gradientStroke.addColorStop(1, 'rgba(233,32,16,0.2)');
+        gradientStroke.addColorStop(0.4, 'rgba(233,32,16,0.0)');
+        gradientStroke.addColorStop(0, 'rgba(233,32,16,0)'); //red colors
+        var data = {
+            labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
+            datasets: [{
+                    label: "Data",
+                    fill: true,
+                    backgroundColor: gradientStroke,
+                    borderColor: '#ec250d',
+                    borderWidth: 2,
+                    borderDash: [],
+                    borderDashOffset: 0.0,
+                    pointBackgroundColor: '#ec250d',
+                    pointBorderColor: 'rgba(255,255,255,0)',
+                    pointHoverBackgroundColor: '#ec250d',
+                    pointBorderWidth: 20,
+                    pointHoverRadius: 4,
+                    pointHoverBorderWidth: 15,
+                    pointRadius: 4,
+                    data: [80, 100, 70, 80, 120, 80],
+                }]
+        };
+        var myChart = new chart_js__WEBPACK_IMPORTED_MODULE_2___default.a(this.ctx, {
+            type: 'line',
+            data: data,
+            options: gradientChartOptionsConfigurationWithTooltipRed
+        });
+        this.canvas = document.getElementById("chartLineGreen");
+        this.ctx = this.canvas.getContext("2d");
+        var gradientStroke = this.ctx.createLinearGradient(0, 230, 0, 50);
+        gradientStroke.addColorStop(1, 'rgba(66,134,121,0.15)');
+        gradientStroke.addColorStop(0.4, 'rgba(66,134,121,0.0)'); //green colors
+        gradientStroke.addColorStop(0, 'rgba(66,134,121,0)'); //green colors
+        var data = {
+            labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV'],
+            datasets: [{
+                    label: "My First dataset",
+                    fill: true,
+                    backgroundColor: gradientStroke,
+                    borderColor: '#00d6b4',
+                    borderWidth: 2,
+                    borderDash: [],
+                    borderDashOffset: 0.0,
+                    pointBackgroundColor: '#00d6b4',
+                    pointBorderColor: 'rgba(255,255,255,0)',
+                    pointHoverBackgroundColor: '#00d6b4',
+                    pointBorderWidth: 20,
+                    pointHoverRadius: 4,
+                    pointHoverBorderWidth: 15,
+                    pointRadius: 4,
+                    data: [90, 27, 60, 12, 80],
+                }]
+        };
+        var myChart = new chart_js__WEBPACK_IMPORTED_MODULE_2___default.a(this.ctx, {
+            type: 'line',
+            data: data,
+            options: gradientChartOptionsConfigurationWithTooltipGreen
+        });
+        var chart_labels = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+        this.datasets = [
+            [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100],
+            [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
+            [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130]
+        ];
+        this.data = this.datasets[0];
+        this.canvas = document.getElementById("chartBig1");
+        this.ctx = this.canvas.getContext("2d");
+        var gradientStroke = this.ctx.createLinearGradient(0, 230, 0, 50);
+        gradientStroke.addColorStop(1, 'rgba(233,32,16,0.2)');
+        gradientStroke.addColorStop(0.4, 'rgba(233,32,16,0.0)');
+        gradientStroke.addColorStop(0, 'rgba(233,32,16,0)'); //red colors
+        var config = {
+            type: 'line',
+            data: {
+                labels: chart_labels,
+                datasets: [{
+                        label: "My First dataset",
+                        fill: true,
+                        backgroundColor: gradientStroke,
+                        borderColor: '#ec250d',
+                        borderWidth: 2,
+                        borderDash: [],
+                        borderDashOffset: 0.0,
+                        pointBackgroundColor: '#ec250d',
+                        pointBorderColor: 'rgba(255,255,255,0)',
+                        pointHoverBackgroundColor: '#ec250d',
+                        pointBorderWidth: 20,
+                        pointHoverRadius: 4,
+                        pointHoverBorderWidth: 15,
+                        pointRadius: 4,
+                        data: this.data,
+                    }]
+            },
+            options: gradientChartOptionsConfigurationWithTooltipRed
+        };
+        this.myChartData = new chart_js__WEBPACK_IMPORTED_MODULE_2___default.a(this.ctx, config);
+        this.canvas = document.getElementById("CountryChart");
+        this.ctx = this.canvas.getContext("2d");
+        var gradientStroke = this.ctx.createLinearGradient(0, 230, 0, 50);
+        gradientStroke.addColorStop(1, 'rgba(29,140,248,0.2)');
+        gradientStroke.addColorStop(0.4, 'rgba(29,140,248,0.0)');
+        gradientStroke.addColorStop(0, 'rgba(29,140,248,0)'); //blue colors
+        var myChart = new chart_js__WEBPACK_IMPORTED_MODULE_2___default.a(this.ctx, {
+            type: 'bar',
+            responsive: true,
+            legend: {
+                display: false
+            },
+            data: {
+                labels: ['USA', 'GER', 'AUS', 'UK', 'RO', 'BR'],
+                datasets: [{
+                        label: "Countries",
+                        fill: true,
+                        backgroundColor: gradientStroke,
+                        hoverBackgroundColor: gradientStroke,
+                        borderColor: '#1f8ef1',
+                        borderWidth: 2,
+                        borderDash: [],
+                        borderDashOffset: 0.0,
+                        data: [53, 20, 10, 80, 100, 45],
+                    }]
+            },
+            options: gradientBarChartConfiguration
+        });
+    };
+    ImperioBrozeComponent.prototype.updateOptions = function () {
+        this.myChartData.data.datasets[0].data = this.data;
+        this.myChartData.update();
+    };
+    ImperioBrozeComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: "app-imperio-broze",
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./imperio-bronze.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component.html")).default
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], ImperioBrozeComponent);
+    return ImperioBrozeComponent;
+}());
+
 
 
 /***/ }),

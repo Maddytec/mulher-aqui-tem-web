@@ -892,43 +892,42 @@ var ROUTES = [
         rtlTitle: "خرائط",
         icon: "icon-single-02",
         class: ""
+    },
+    {
+        path: "/imperio-bronze",
+        title: "Imperio do Bronze",
+        rtlTitle: "إخطارات",
+        icon: "icon-single-02",
+        class: ""
     } /*,
-  {
-    path: "/notifications",
-    title: "Notifications",
-    rtlTitle: "إخطارات",
-    icon: "icon-bell-55",
-    class: ""
-  },
-
-  {
-    path: "/user",
-    title: "User Profile",
-    rtlTitle: "ملف تعريفي للمستخدم",
-    icon: "icon-single-02",
-    class: ""
-  },
-  {
-    path: "/tables",
-    title: "Table List",
-    rtlTitle: "قائمة الجدول",
-    icon: "icon-puzzle-10",
-    class: ""
-  },
-  {
-    path: "/typography",
-    title: "Typography",
-    rtlTitle: "طباعة",
-    icon: "icon-align-center",
-    class: ""
-  },
-  {
-    path: "/rtl",
-    title: "RTL Support",
-    rtlTitle: "ار تي ال",
-    icon: "icon-world",
-    class: ""
-  } */
+    {
+      path: "/user",
+      title: "User Profile",
+      rtlTitle: "ملف تعريفي للمستخدم",
+      icon: "icon-single-02",
+      class: ""
+    },
+    {
+      path: "/tables",
+      title: "Table List",
+      rtlTitle: "قائمة الجدول",
+      icon: "icon-puzzle-10",
+      class: ""
+    },
+    {
+      path: "/typography",
+      title: "Typography",
+      rtlTitle: "طباعة",
+      icon: "icon-align-center",
+      class: ""
+    },
+    {
+      path: "/rtl",
+      title: "RTL Support",
+      rtlTitle: "ار تي ال",
+      icon: "icon-world",
+      class: ""
+    } */
 ];
 var SidebarComponent = /** @class */ (function () {
     function SidebarComponent() {
