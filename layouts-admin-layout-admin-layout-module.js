@@ -1,15 +1,15 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["layouts-admin-layout-admin-layout-module"],{
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component.html":
-/*!*****************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component.html ***!
-  \*****************************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component.html":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component.html ***!
+  \******************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\" content\">\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 5px;\">\n          <img src=\"./assets/img/curso/imperio-broze/0.png\" />\n      </div>\n      <div class=\" card card-chart\" style=\"margin-top: 8px; margin-bottom: 5px; \">\n        <a href=\"http://mon.net.br/y27nj\" target=\"_blank\" class=\"btn btn-danger texto-responsivo-md\">SIM, EU QUERO O MELHOR CURSO DE BRONZEAMENTO</a>\n      </div>\n    </div>\n    <div class=\" col-lg-7\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 0px;\">\n            <div class=\"embed-responsive embed-responsive-16by9\">\n              <iframe \n                src=\"https://www.youtube.com/embed/Y3yCZOaQSJk?start=32\" \n                frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n        </div>\n      </div>\n      <div class=\" card card-chart\" style=\"margin-bottom: 10px;\">\n        <a href=\"https://imperiodobronze.com.br/?mcr=AFU10744381\" target=\"_blank\" class=\"btn btn-info texto-responsivo-lg\">QUERO SABER MAIS SOBRE O MELHOR CURSO DE BRONZEAMENTO</a>\n      </div>\n    </div>\n  </div>\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n        <img src=\"./assets/img/curso/imperio-broze/1.jpg\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img src=\"./assets/img/curso/imperio-broze/2.png\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img src=\"./assets/img/curso/imperio-broze/3.jpg\" />\n      </div>\n    </div>\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\" content\">\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 5px;\">\n          <img alt=\"Curso de Bronzeamanto\" src=\"./assets/img/curso/imperio-bronze/curso-imperio-bronze.png\" />\n      </div>\n      <div class=\" card card-chart\" style=\"margin-top: 8px; margin-bottom: 5px; \">\n        <a href=\"http://mon.net.br/y27nj\" target=\"_blank\" class=\"btn btn-danger texto-responsivo-md\">SIM, EU QUERO O MELHOR CURSO DE BRONZEAMENTO</a>\n      </div>\n    </div>\n    <div class=\" col-lg-7\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 0px;\">\n            <div class=\"embed-responsive embed-responsive-16by9\">\n              <iframe \n                src=\"https://www.youtube.com/embed/Y3yCZOaQSJk?start=32\" \n                frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n        </div>\n      </div>\n      <div class=\" card card-chart\" style=\"margin-bottom: 10px;\">\n        <a href=\"https://imperiodobronze.com.br/?mcr=AFU10744381\" target=\"_blank\" class=\"btn btn-info texto-responsivo-lg\">QUERO SABER MAIS SOBRE O MELHOR CURSO DE BRONZEAMENTO</a>\n      </div>\n    </div>\n  </div>\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n        <img alt=\"Imperio do Bronze\" src=\"./assets/img/curso/imperio-bronze/imperio-bronze.png\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"Modelo de Bequini com fita\" src=\"./assets/img/curso/imperio-bronze/modelo-de-bequini.png\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"bronze perfeito\" src=\"./assets/img/curso/imperio-bronze/bronze-perfeito.png\" />\n      </div>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -215,7 +215,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../pages/dashboard/dashboard.component */ "./src/app/pages/dashboard/dashboard.component.ts");
 /* harmony import */ var src_app_pages_maquiagem_web_maquiagem_web_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/pages/maquiagem-web/maquiagem-web.component */ "./src/app/pages/maquiagem-web/maquiagem-web.component.ts");
 /* harmony import */ var src_app_pages_unha_curso_unha_curso01_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/pages/unha-curso/unha-curso01.component */ "./src/app/pages/unha-curso/unha-curso01.component.ts");
-/* harmony import */ var src_app_pages_cursos_brozeamento_imperio_bronze_imperio_bronze_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component */ "./src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component.ts");
+/* harmony import */ var src_app_pages_cursos_bronzeamento_imperio_bronze_imperio_bronze_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component */ "./src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component.ts");
 
 
 
@@ -225,22 +225,22 @@ var AdminLayoutRoutes = [
     { path: "dashboard", component: _pages_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_1__["DashboardComponent"] },
     { path: "maquiagem-web", component: src_app_pages_maquiagem_web_maquiagem_web_component__WEBPACK_IMPORTED_MODULE_2__["MaquiagemWebComponent"] },
     { path: "unha-curso01", component: src_app_pages_unha_curso_unha_curso01_component__WEBPACK_IMPORTED_MODULE_3__["UnhaCurso01Component"] },
-    { path: "imperio-bronze", component: src_app_pages_cursos_brozeamento_imperio_bronze_imperio_bronze_component__WEBPACK_IMPORTED_MODULE_4__["ImperioBrozeComponent"] }
+    { path: "imperio-bronze", component: src_app_pages_cursos_bronzeamento_imperio_bronze_imperio_bronze_component__WEBPACK_IMPORTED_MODULE_4__["ImperioBronzeComponent"] }
 ];
 
 
 /***/ }),
 
-/***/ "./src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component.ts":
-/*!*************************************************************************************!*\
-  !*** ./src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component.ts ***!
-  \*************************************************************************************/
-/*! exports provided: ImperioBrozeComponent */
+/***/ "./src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component.ts":
+/*!**************************************************************************************!*\
+  !*** ./src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component.ts ***!
+  \**************************************************************************************/
+/*! exports provided: ImperioBronzeComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImperioBrozeComponent", function() { return ImperioBrozeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImperioBronzeComponent", function() { return ImperioBronzeComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
 /* harmony import */ var chart_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! chart.js */ "./node_modules/chart.js/dist/Chart.js");
@@ -248,13 +248,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ImperioBrozeComponent = /** @class */ (function () {
-    function ImperioBrozeComponent() {
+var ImperioBronzeComponent = /** @class */ (function () {
+    function ImperioBronzeComponent() {
         this.clicked = true;
         this.clicked1 = false;
         this.clicked2 = false;
     }
-    ImperioBrozeComponent.prototype.ngOnInit = function () {
+    ImperioBronzeComponent.prototype.ngOnInit = function () {
         var gradientChartOptionsConfigurationWithTooltipBlue = {
             maintainAspectRatio: false,
             legend: {
@@ -652,18 +652,18 @@ var ImperioBrozeComponent = /** @class */ (function () {
             options: gradientBarChartConfiguration
         });
     };
-    ImperioBrozeComponent.prototype.updateOptions = function () {
+    ImperioBronzeComponent.prototype.updateOptions = function () {
         this.myChartData.data.datasets[0].data = this.data;
         this.myChartData.update();
     };
-    ImperioBrozeComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    ImperioBronzeComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: "app-imperio-broze",
-            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./imperio-bronze.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/brozeamento/imperio-bronze/imperio-bronze.component.html")).default
+            selector: "app-imperio-bronze",
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./imperio-bronze.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component.html")).default
         }),
         Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
-    ], ImperioBrozeComponent);
-    return ImperioBrozeComponent;
+    ], ImperioBronzeComponent);
+    return ImperioBronzeComponent;
 }());
 
 
