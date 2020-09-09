@@ -35943,7 +35943,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\" content\">\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 5px;\">\n          <img alt=\"Curso Sobrancelha Perfeita\" src=\"./assets/img/curso/sobrancelha-perfeita/sobrancelhas_perfeitas4.png\" />\n      </div>\n      <div class=\" card card-chart\" style=\"margin-top: 8px; margin-bottom: 5px;\">\n        <a href=\"https://pay.hotmart.com/J4108478E?ref=D38199943H\" target=\"_blank\" class=\"btn btn-danger texto-responsivo-md\">SIM, EU QUERO O MELHOR CURSO DE SOBRANCELHAS</a>\n      </div>\n    </div>\n    <div class=\" col-lg-7\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 0px;\">\n            <div class=\"embed-responsive embed-responsive-16by9\">\n              <iframe \n                src=\"https://www.youtube.com/embed/FxEYqxh0GMI?start=32\" \n                frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n        </div>\n      </div>\n      <div class=\" card card-chart\" style=\"margin-bottom: 10px;\">\n        <a href=\"https://www.cursosobrancelhasperfeitas.com/?ref=D38199943H\" target=\"_blank\" class=\"btn btn-info texto-responsivo-lg\">QUERO SABER MAIS SOBRE O MELHOR CURSO DE SOBRANCELHAS</a>\n      </div>\n    </div>\n  </div>\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"Curso Sobrancelha\" src=\"./assets/img/curso/sobrancelha-perfeita/3.jpg\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"Designer sobrancelha\" src=\"./assets/img/curso/sobrancelha-perfeita/5.jpg\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"sobrancelha desenhada\" src=\"./assets/img/curso/sobrancelha-perfeita/8.jpg\" />\n      </div>\n    </div>\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\" content\">\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\"card\" style=\"width: 18rem;\">\n        <img class=\"card-img-top\" src=\"./assets/img/curso/sobrancelha-perfeita/sobrancelhas_perfeitas4.png\"\n          alt=\"Curso Sobrancelhas Perfeitas\" />\n        <div class=\"card-body\">\n          <h5 class=\"card-title\">Curso Sobrancelhas Perfeitas</h5>\n          <p class=\"card-text\">Descubra como se tornar uma Designer de Sobrancelhas de Sucesso e ter a sua Independência Financeira com um Método Único e Simples.</p>\n          <a routerLink=\"/sobrancelhas-perfeitas\" class=\"btn btn-primary\">Mais</a>\n        </div>\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\"card\" style=\"width: 18rem;\">\n        <img class=\"card-img-top\" src=\"./assets/img/curso/maquiagem-web/2.jpg\" alt=\"Maquiagem na Web\" />\n        <div class=\"card-body\">\n          <h5 class=\"card-title\">Maquiagem na Web</h5>\n          <p class=\"card-text\">Conheça agora o Curso Maquiagem na Web, são 35 Vídeo Aulas que ensinam do Básico ao Avançado todas as técnicas para você se Maquiar para os mais diversos tipos de ocasiões.</p>\n          <a routerLink=\"/maquiagem-web\" class=\"btn btn-primary\">Mais</a>\n        </div>\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\"card\" style=\"width: 18rem;\">\n        <img class=\"card-img-top\" src=\"./assets/img/curso/unha-curso01/escola-designer-de-unhas.png\"\n          alt=\"Curso Sobrancelhas Perfeitas\" />\n        <div class=\"card-body\">\n          <h5 class=\"card-title\">Escola Designer de Unhas</h5>\n          <p class=\"card-text\">Curso Completo Alongamento de Unhas com Paola Chaves possui 47 vídeo aulas exclusivas, onde a aluna aprenderá do zero como fazer unhas de qualidade com aspecto de naturalidade.</p>\n          <a [routerLink]=\"['/unha-curso01']\" class=\"btn btn-primary\">Mais</a>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>");
 
 /***/ }),
 
@@ -36009,8 +36009,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AdminLayoutModule = /** @class */ (function () {
-    function AdminLayoutModule() {
+    function AdminLayoutModule(config) {
+        config.interval = 3000;
+        config.wrap = true;
+        config.keyboard = false;
+        config.pauseOnHover = true;
     }
+    AdminLayoutModule.ctorParameters = function () { return [
+        { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_8__["NgbCarouselConfig"] }
+    ]; };
     AdminLayoutModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             imports: [
@@ -36018,12 +36025,13 @@ var AdminLayoutModule = /** @class */ (function () {
                 _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forChild(_admin_layout_routing__WEBPACK_IMPORTED_MODULE_6__["AdminLayoutRoutes"]),
                 _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"],
-                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_8__["NgbModule"],
+                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_8__["NgbModule"]
             ],
             declarations: [
                 _pages_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_7__["DashboardComponent"]
             ]
-        })
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_8__["NgbCarouselConfig"]])
     ], AdminLayoutModule);
     return AdminLayoutModule;
 }());
