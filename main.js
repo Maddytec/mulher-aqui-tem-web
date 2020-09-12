@@ -48,7 +48,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"logo\">\n  <a [routerLink]=\"['/inicio']\" class=\"simple-text logo-normal\" style=\"font-size: 16px;\">\n    <i class=\"fa fa-home\"></i>\n    Mulher Aqui Tem\n  </a>\n</div>\n<div class=\"sidebar-wrapper\">\n  <ul class=\"nav\">\n    <li\n    routerLinkActive=\"active\"\n    *ngFor=\"let menuItem of menuItems\"\n    class=\"{{ menuItem.class }} nav-item\">\n    <a [routerLink]=\"[menuItem.path]\">\n      <i class=\"tim-icons  {{ menuItem.icon }}\"></i>\n      <p>{{ menuItem.title }}</p>\n    </a>\n  </li>\n  </ul>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"logo\">\n  <a [routerLink]=\"['/inicio']\" class=\"simple-text logo-normal\" style=\"font-size: 16px;\">\n    <span class=\"fa fa-home mr-1\"></span> \n    Mulher Aqui Tem\n  </a>\n</div>\n<div class=\"sidebar-wrapper\">\n  <ul class=\"nav\">\n    <li\n    routerLinkActive=\"active\"\n    *ngFor=\"let menuItem of menuItems\"\n    class=\"{{ menuItem.class }} nav-item\">\n    <a [routerLink]=\"[menuItem.path]\">\n      <i class=\"tim-icons  {{ menuItem.icon }}\"></i>\n      <p>{{ menuItem.title }}</p>\n    </a>\n  </li>\n  </ul>\n</div>\n");
 
 /***/ }),
 
