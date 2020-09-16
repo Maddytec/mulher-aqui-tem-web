@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!--The content below is only a placeholder and can be replaced.-->\n\n<router-outlet></router-outlet>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!--The content below is only a placeholder and can be replaced.-->\r\n\r\n<router-outlet></router-outlet>\r\n");
 
 /***/ }),
 
@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\" footer\">\n  <div class=\" container-fluid\">\n    <div class=\"fb-like\" \n      style=\"padding-left: 25px;\"\n      data-href=\"https://mulheraquitem.com.br\" \n      data-width=\"\" \n      data-layout=\"standard\" \n      data-action=\"like\" \n      data-size=\"small\" \n      data-share=\"true\">\n    </div>\n\n\n    <div class=\" copyright\">\n      &copy; {{ test | date: \"yyyy\" }} Desenvolvido com\n      <i class=\" tim-icons icon-heart-2\"> </i> por\n      <a href=\"https://www.maddytec.com.br\" target=\"_blank\"> Maddytec </a>\n      para você.\n    </div>\n  </div>\n</footer>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\" footer\">\r\n  <div class=\" container-fluid\">\r\n    <div class=\"fb-like\" \r\n      style=\"padding-left: 25px;\"\r\n      data-href=\"https://mulheraquitem.com.br\" \r\n      data-width=\"\" \r\n      data-layout=\"standard\" \r\n      data-action=\"like\" \r\n      data-size=\"small\" \r\n      data-share=\"true\">\r\n    </div>\r\n\r\n\r\n    <div class=\" copyright\">\r\n      &copy; {{ test | date: \"yyyy\" }} Desenvolvido com\r\n      <i class=\" tim-icons icon-heart-2\"> </i> por\r\n      <a href=\"https://www.maddytec.com.br\" target=\"_blank\"> Maddytec </a>\r\n      para você.\r\n    </div>\r\n  </div>\r\n</footer>\r\n");
 
 /***/ }),
 
@@ -35,7 +35,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\" navbar navbar-expand-lg navbar-absolute navbar-transparent\">\n  <div class=\" container-fluid\">\n    <div class=\" navbar-wrapper\">\n      <div class=\" navbar-toggle d-inline\">\n        <button class=\" navbar-toggler\" type=\"button\" (click)=\"sidebarToggle()\">\n          <span class=\" navbar-toggler-bar bar1\"> </span>\n          <span class=\" navbar-toggler-bar bar2\"> </span>\n          <span class=\" navbar-toggler-bar bar3\"> </span>\n        </button>\n      </div>\n      <a class=\" navbar-brand\" href=\"javascript:void(0)\"> {{ getTitle() }} </a>\n    </div>\n    <button\n      aria-label=\"Toggle navigation\"\n      class=\" navbar-toggler\"\n      (click)=\"collapse()\"\n      [attr.aria-expanded]=\"!isCollapsed\"\n      aria-controls=\"collapseExample\"\n      id=\"navigation\"\n      type=\"button\"\n    >\n      <span class=\" navbar-toggler-bar navbar-kebab\"> </span>\n      <span class=\" navbar-toggler-bar navbar-kebab\"> </span>\n      <span class=\" navbar-toggler-bar navbar-kebab\"> </span>\n    </button>\n    <div class=\" navbar-collapse\" [ngbCollapse]=\"isCollapsed\" id=\"navigation\">\n      <ul class=\" navbar-nav ml-auto\">\n        <li class=\" search-bar input-group\">\n          <button\n            class=\" btn btn-link\"\n            data-target=\"#searchModal\"\n            data-toggle=\"modal\"\n            (click)=\"open(content)\"\n            id=\"search-button\"\n          >\n            <i class=\" tim-icons icon-zoom-split\"> </i>\n            <span class=\" d-lg-none d-md-block\"> Pesquisa </span>\n          </button>\n        </li>\n        <li class=\" separator d-lg-none\"></li>\n      </ul>\n    </div>\n  </div>\n</nav>\n\n<ng-template #content let-modal>\n  <div class=\" modal-header\">\n    <input\n      class=\" form-control\"\n      id=\"inlineFormInputGroup\"\n      placeholder=\"SEARCH\"\n      type=\"text\"\n    />\n\n    <button\n      aria-label=\"Close\"\n      class=\" close\"\n      data-dismiss=\"modal\"\n      type=\"button\"\n      (click)=\"modal.dismiss('Cross click')\"\n    >\n      <i class=\" tim-icons icon-simple-remove\"> </i>\n    </button>\n  </div>\n\n</ng-template>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\" navbar navbar-expand-lg navbar-absolute navbar-transparent\">\r\n  <div class=\" container-fluid\">\r\n    <div class=\" navbar-wrapper\">\r\n      <div class=\" navbar-toggle d-inline\">\r\n        <button class=\" navbar-toggler\" type=\"button\" (click)=\"sidebarToggle()\">\r\n          <span class=\" navbar-toggler-bar bar1\"> </span>\r\n          <span class=\" navbar-toggler-bar bar2\"> </span>\r\n          <span class=\" navbar-toggler-bar bar3\"> </span>\r\n        </button>\r\n      </div>\r\n      <a class=\" navbar-brand\" href=\"javascript:void(0)\"> {{ getTitle() }} </a>\r\n    </div>\r\n    <button\r\n      aria-label=\"Toggle navigation\"\r\n      class=\" navbar-toggler\"\r\n      (click)=\"collapse()\"\r\n      [attr.aria-expanded]=\"!isCollapsed\"\r\n      aria-controls=\"collapseExample\"\r\n      id=\"navigation\"\r\n      type=\"button\"\r\n    >\r\n      <span class=\" navbar-toggler-bar navbar-kebab\"> </span>\r\n      <span class=\" navbar-toggler-bar navbar-kebab\"> </span>\r\n      <span class=\" navbar-toggler-bar navbar-kebab\"> </span>\r\n    </button>\r\n    <div class=\" navbar-collapse\" [ngbCollapse]=\"isCollapsed\" id=\"navigation\">\r\n      <ul class=\" navbar-nav ml-auto\">\r\n        <li class=\" search-bar input-group\">\r\n          <button\r\n            class=\" btn btn-link\"\r\n            data-target=\"#searchModal\"\r\n            data-toggle=\"modal\"\r\n            (click)=\"open(content)\"\r\n            id=\"search-button\"\r\n          >\r\n            <i class=\" tim-icons icon-zoom-split\"> </i>\r\n            <span class=\" d-lg-none d-md-block\"> Pesquisa </span>\r\n          </button>\r\n        </li>\r\n        <li class=\" separator d-lg-none\"></li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n\r\n<ng-template #content let-modal>\r\n  <div class=\" modal-header\">\r\n    <input\r\n      class=\" form-control\"\r\n      id=\"inlineFormInputGroup\"\r\n      placeholder=\"SEARCH\"\r\n      type=\"text\"\r\n    />\r\n\r\n    <button\r\n      aria-label=\"Close\"\r\n      class=\" close\"\r\n      data-dismiss=\"modal\"\r\n      type=\"button\"\r\n      (click)=\"modal.dismiss('Cross click')\"\r\n    >\r\n      <i class=\" tim-icons icon-simple-remove\"> </i>\r\n    </button>\r\n  </div>\r\n\r\n</ng-template>\r\n");
 
 /***/ }),
 
@@ -48,7 +48,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"logo\">\n  <a [routerLink]=\"['/inicio']\" class=\"simple-text logo-normal\" style=\"font-size: 16px;\">\n    <span class=\"fa fa-home mr-1\"></span> \n    Mulher Aqui Tem\n  </a>\n</div>\n<div class=\"sidebar-wrapper\">\n  <ul class=\"nav\">\n    <li\n    routerLinkActive=\"active\"\n    *ngFor=\"let menuItem of menuItems\"\n    class=\"{{ menuItem.class }} nav-item\">\n    <a [routerLink]=\"[menuItem.path]\">\n      <i class=\"tim-icons  {{ menuItem.icon }}\"></i>\n      <p>{{ menuItem.title }}</p>\n    </a>\n  </li>\n  </ul>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"logo\">\r\n  <a [routerLink]=\"['/inicio']\" class=\"simple-text logo-normal\" style=\"font-size: 16px;\">\r\n    <span class=\"fa fa-home mr-1\"></span> \r\n    Mulher Aqui Tem\r\n  </a>\r\n</div>\r\n<div class=\"sidebar-wrapper\">\r\n  <ul class=\"nav\">\r\n    <li\r\n    routerLinkActive=\"active\"\r\n    *ngFor=\"let menuItem of menuItems\"\r\n    class=\"{{ menuItem.class }} nav-item\">\r\n    <a [routerLink]=\"[menuItem.path]\">\r\n      <i class=\"tim-icons  {{ menuItem.icon }}\"></i>\r\n      <p>{{ menuItem.title }}</p>\r\n    </a>\r\n  </li>\r\n  </ul>\r\n</div>\r\n");
 
 /***/ }),
 
@@ -61,7 +61,33 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"wrapper\">\n  <div class=\"sidebar\"><app-sidebar></app-sidebar></div>\n  <div class=\"main-panel\">\n    <app-navbar></app-navbar>\n    <router-outlet></router-outlet>\n    <app-footer></app-footer>\n  </div>\n</div>\n<div class=\" fixed-plugin\" style=\"width: 30px;\">\n  <div class=\" show-dropdown\" ngbDropdown>\n    <a data-toggle=\"dropdown\" ngbDropdownToggle>\n      <i class=\"fa fa-cog fa-spin fa-fw\"> </i>\n    </a>\n    <ul ngbDropdownMenu style=\"right: 40px\">\n      <li class=\" header-title\">Qual a cor você mais gosta?</li>\n      <li class=\" adjustments-line\">\n        <a class=\" switch-trigger background-color\" href=\"javascript:void(0)\">\n          <div class=\" badge-colors text-center\">\n            <span class=\" badge filter badge-danger\" [ngClass]=\"{'active':sidebarColor==='red'}\" (click)=\"changeSidebarColor('red')\"></span>\n            <span class=\" badge filter badge-primary\" [ngClass]=\"{'active':sidebarColor==='primary'}\" (click)=\"changeSidebarColor('primary')\"></span>\n            <span class=\" badge filter badge-info\" [ngClass]=\"{'active':sidebarColor==='blue'}\" (click)=\"changeSidebarColor('blue')\"> </span>\n            <span class=\" badge filter badge-success\" [ngClass]=\"{'active':sidebarColor==='green'}\" (click)=\"changeSidebarColor('green')\"></span>\n          </div>\n          <div class=\" clearfix\"></div>\n        </a>\n      </li>\n      <li class=\" header-title\">Cor do Tema</li>\n      <li class=\" adjustments-line text-center color-change\">\n        <span class=\" color-label\"> BRANCO </span>\n        <span class=\" badge light-badge mr-2\" (click)=\"changeDashboardColor('white-content')\"> </span>\n        <span class=\" badge dark-badge ml-2\" (click)=\"changeDashboardColor('black-content')\"> </span>\n        <span class=\" color-label\"> PRETO </span>\n      </li>\n    </ul>\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"wrapper\">\r\n  <div class=\"sidebar\"><app-sidebar></app-sidebar></div>\r\n  <div class=\"main-panel\">\r\n    <app-navbar></app-navbar>\r\n    <router-outlet></router-outlet>\r\n    <app-footer></app-footer>\r\n  </div>\r\n</div>\r\n<div class=\" fixed-plugin\" style=\"width: 30px;\">\r\n  <div class=\" show-dropdown\" ngbDropdown>\r\n    <a data-toggle=\"dropdown\" ngbDropdownToggle>\r\n      <i class=\"fa fa-cog fa-spin fa-fw\"> </i>\r\n    </a>\r\n    <ul ngbDropdownMenu style=\"right: 40px\">\r\n      <li class=\" header-title\">Qual a cor você mais gosta?</li>\r\n      <li class=\" adjustments-line\">\r\n        <a class=\" switch-trigger background-color\" href=\"javascript:void(0)\">\r\n          <div class=\" badge-colors text-center\">\r\n            <span class=\" badge filter badge-danger\" [ngClass]=\"{'active':sidebarColor==='red'}\" (click)=\"changeSidebarColor('red')\"></span>\r\n            <span class=\" badge filter badge-primary\" [ngClass]=\"{'active':sidebarColor==='primary'}\" (click)=\"changeSidebarColor('primary')\"></span>\r\n            <span class=\" badge filter badge-info\" [ngClass]=\"{'active':sidebarColor==='blue'}\" (click)=\"changeSidebarColor('blue')\"> </span>\r\n            <span class=\" badge filter badge-success\" [ngClass]=\"{'active':sidebarColor==='green'}\" (click)=\"changeSidebarColor('green')\"></span>\r\n          </div>\r\n          <div class=\" clearfix\"></div>\r\n        </a>\r\n      </li>\r\n      <li class=\" header-title\">Cor do Tema</li>\r\n      <li class=\" adjustments-line text-center color-change\">\r\n        <span class=\" color-label\"> BRANCO </span>\r\n        <span class=\" badge light-badge mr-2\" (click)=\"changeDashboardColor('white-content')\"> </span>\r\n        <span class=\" badge dark-badge ml-2\" (click)=\"changeDashboardColor('black-content')\"> </span>\r\n        <span class=\" color-label\"> PRETO </span>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>\r\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/categorias/saude/saude.component.html":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/categorias/saude/saude.component.html ***!
+  \***************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<style>\n    .checked {\n      color: orange;\n    }\n  </style>\n  <div class=\"content\">\n    <div class=\"row\" style=\"text-align: center;\">\n      <div class=\"col-lg-4\">\n        <div class=\"card\">\n          <img\n            class=\"card-img-top\"\n            src=\"../../../../assets/img/saude/dietade17dias/desafio17dias.jpg\"\n            alt=\"Dieta de 17 Dias\"\n          />\n          <div class=\"card-body\">\n            <h4 class=\"card-title\">Dieta de 17 Dias</h4>\n            <p>Renata Souza</p>\n            <div>\n              <span style=\"color: orange; padding-right: 5px\">4.6</span>\n              <span class=\"fa fa-star checked\"></span>\n              <span class=\"fa fa-star checked\"></span>\n              <span class=\"fa fa-star checked\"></span>\n              <span class=\"fa fa-star checked\"></span>\n              <span class=\"fa fa-star\"></span>\n            </div>\n            <p class=\"card-text\">\n                A Dieta de 17 Dias, é um e-book completo para você aprender do ZERO a como emagrecer de forma saudável e rápida em apenas 17 dias!.\n            </p>\n            <a routerLink=\"/dietade17dias\" class=\"btn btn-primary\"\n              >Mais</a\n            >\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  ");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.html":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.html ***!
+  \*********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\" content\">\n    <div class=\" row\">\n      <div class=\" col-lg-4\">\n        <div class=\" card card-chart\" style=\"margin-bottom: 5px;\">\n            <a href=\"https://go.hotmart.com/W41230879H\" target=\"_blank\" rel=\"nofollow\">            \n                <img alt=\"Dieta de 17 dias\" src=\"../../../../../assets/img/curso/saude/dietade17dias/dietade17dias.jpg\" />\n            </a>\n        </div>\n        <div class=\" card card-chart\" style=\"margin-top: 8px; margin-bottom: 5px;\">\n          <a href=\"https://go.hotmart.com/W41230879H?ap=d915\" target=\"_blank\" class=\"btn btn-danger texto-responsivo-md\">SIM, EU QUERO EMAGRECER</a>\n        </div>\n      </div>\n      <div class=\" col-lg-7\">\n        <div class=\" card card-chart\" style=\"margin-bottom: 0px;\">\n              <div class=\"embed-responsive embed-responsive-16by9\">\n                <iframe \n                  src=\"https://www.youtube.com/embed/gwv67cIBih4?start=32\" \n                  frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" \n                  allowfullscreen>\n                </iframe>\n          </div>\n        </div>\n        <div class=\" card card-chart\" style=\"margin-bottom: 10px;\">\n          <a href=\"https://www.acessoadietade17dias.com.br/promocao/?ref=W41230879H\" target=\"_blank\" class=\"btn btn-info texto-responsivo-lg\">QUERO SABER MAIS SOBRE A DIETA DE 17 DIAS</a>\n        </div>\n      </div>\n    </div>\n    <div class=\" row\">\n      <div class=\" col-lg-4\">\n        <div class=\" card card-chart\">\n              <img alt=\"alimentação saudavel\" src=\"../../../../../assets/img/curso/saude/dietade17dias/alimentacao-saudavel.jpg\" />\n        </div>\n      </div>\n      <div class=\" col-lg-4\">\n        <div class=\" card card-chart\">\n              <img alt=\"reducao de medida\" src=\"../../../../../assets/img/curso/saude/dietade17dias/reducao-medida.png\" />\n        </div>\n      </div>\n      <div class=\" col-lg-4\">\n        <div class=\" card card-chart\">\n              <img alt=\"suco verde\" src=\"../../../../../assets/img/curso/saude/dietade17dias/suco-verde.png\" />\n        </div>\n      </div>\n    </div>\n  </div>\n  ");
 
 /***/ }),
 
@@ -461,6 +487,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/__ivy_ngcc__/fesm5/ng-bootstrap.js");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _components_components_module__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/components.module */ "./src/app/components/components.module.ts");
+/* harmony import */ var _pages_categorias_saude_saude_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/categorias/saude/saude.component */ "./src/app/pages/categorias/saude/saude.component.ts");
+/* harmony import */ var _pages_cursos_saude_dietade17dias_dietade17dias_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/cursos/saude/dietade17dias/dietade17dias.component */ "./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.ts");
+
+
 
 
 
@@ -488,7 +518,7 @@ var AppModule = /** @class */ (function () {
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["AppRoutingModule"],
                 ngx_toastr__WEBPACK_IMPORTED_MODULE_6__["ToastrModule"].forRoot()
             ],
-            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _layouts_admin_layout_admin_layout_component__WEBPACK_IMPORTED_MODULE_8__["AdminLayoutComponent"]],
+            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _layouts_admin_layout_admin_layout_component__WEBPACK_IMPORTED_MODULE_8__["AdminLayoutComponent"], _pages_categorias_saude_saude_component__WEBPACK_IMPORTED_MODULE_12__["SaudeComponent"], _pages_cursos_saude_dietade17dias_dietade17dias_component__WEBPACK_IMPORTED_MODULE_13__["Dietade17diasComponent"]],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
         })
@@ -851,14 +881,14 @@ var ROUTES = [
         path: "/maquiagem-web",
         title: "Maquiagem na web",
         rtlTitle: "الرموز",
-        icon: "icon-heart-2",
+        icon: "icon-shape-star",
         class: ""
     },
     {
         path: "/unha-curso01",
         title: "Unha Designer",
         rtlTitle: "خرائط",
-        icon: "icon-shape-star",
+        icon: "icon-scissors",
         class: ""
     },
     {
@@ -867,7 +897,15 @@ var ROUTES = [
         rtlTitle: "إخطارات",
         icon: "icon-istanbul",
         class: ""
-    } /*,
+    },
+    {
+        path: "/saude",
+        title: "Saúde",
+        rtlTitle: "إخطارات",
+        icon: "icon-heart-2",
+        class: ""
+    }
+    /*,
     {
       path: "/user",
       title: "User Profile",
@@ -991,6 +1029,100 @@ var AdminLayoutComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/pages/categorias/saude/saude.component.scss":
+/*!*************************************************************!*\
+  !*** ./src/app/pages/categorias/saude/saude.component.scss ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2NhdGVnb3JpYXMvc2F1ZGUvc2F1ZGUuY29tcG9uZW50LnNjc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/pages/categorias/saude/saude.component.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/pages/categorias/saude/saude.component.ts ***!
+  \***********************************************************/
+/*! exports provided: SaudeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SaudeComponent", function() { return SaudeComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+
+
+var SaudeComponent = /** @class */ (function () {
+    function SaudeComponent() {
+    }
+    SaudeComponent.prototype.ngOnInit = function () {
+    };
+    SaudeComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-saude',
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./saude.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/categorias/saude/saude.component.html")).default,
+            styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./saude.component.scss */ "./src/app/pages/categorias/saude/saude.component.scss")).default]
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], SaudeComponent);
+    return SaudeComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.scss":
+/*!*******************************************************************************!*\
+  !*** ./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.scss ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2N1cnNvcy9zYXVkZS9kaWV0YWRlMTdkaWFzL2RpZXRhZGUxN2RpYXMuY29tcG9uZW50LnNjc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.ts":
+/*!*****************************************************************************!*\
+  !*** ./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.ts ***!
+  \*****************************************************************************/
+/*! exports provided: Dietade17diasComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Dietade17diasComponent", function() { return Dietade17diasComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+
+
+var Dietade17diasComponent = /** @class */ (function () {
+    function Dietade17diasComponent() {
+    }
+    Dietade17diasComponent.prototype.ngOnInit = function () {
+    };
+    Dietade17diasComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-dietade17dias',
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./dietade17dias.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.html")).default,
+            styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./dietade17dias.component.scss */ "./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.scss")).default]
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], Dietade17diasComponent);
+    return Dietade17diasComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/environments/environment.ts":
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
@@ -1071,7 +1203,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/maddytec/Documentos/docker/portal-cursos-mulher/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! D:\projetos\mulher-aqui-tem\src\main.ts */"./src/main.ts");
 
 
 /***/ })
