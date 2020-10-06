@@ -65,6 +65,97 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/categorias/saude/saude.component.html":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/categorias/saude/saude.component.html ***!
+  \***************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<style>\n    .checked {\n      color: orange;\n    }\n  </style>\n  <div class=\"content\">\n    <nav aria-label=\"breadcrumb\">\n      <ol class=\"breadcrumb\">\n        <li class=\"breadcrumb-item\"><a routerLink=\"/inicio\">Início</a></li>\n        <li class=\"breadcrumb-item active\" aria-current=\"page\">Saúde</li>\n      </ol>\n    </nav>\n\n    <div class=\"row\" style=\"text-align: center;\">\n      <div class=\"col-lg-4\">\n        <div class=\"card\">\n          <img\n            class=\"card-img-top\"\n            src=\"../../../../assets/img/saude/dietade17dias/desafio17dias.jpg\"\n            alt=\"Dieta de 17 Dias\"\n          />\n          <div class=\"card-body\">\n            <h4 class=\"card-title\">Dieta de 17 Dias</h4>\n            <p>Renata Souza</p>\n            <div>\n              <span style=\"color: orange; padding-right: 5px\">4.6</span>\n              <span class=\"fa fa-star checked\"></span>\n              <span class=\"fa fa-star checked\"></span>\n              <span class=\"fa fa-star checked\"></span>\n              <span class=\"fa fa-star checked\"></span>\n              <span class=\"fa fa-star\"></span>\n            </div>\n            <p class=\"card-text\">\n                A Dieta de 17 Dias, é um e-book completo para você aprender do ZERO a como emagrecer de forma saudável e rápida em apenas 17 dias!.\n            </p>\n            <a routerLink=\"/dietade17dias\" class=\"btn btn-primary\"\n              >Mais</a\n            >\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  ");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/categorias/unha/unha.component.html":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/categorias/unha/unha.component.html ***!
+  \*************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<style>\n    .checked {\n      color: orange;\n    }\n  </style>\n  <div class=\"content\">\n    <nav aria-label=\"breadcrumb\">\n      <ol class=\"breadcrumb\">\n        <li class=\"breadcrumb-item\"><a routerLink=\"/inicio\">Início</a></li>\n        <li class=\"breadcrumb-item active\" aria-current=\"page\">Unhas</li>\n      </ol>\n    </nav>\n\n    <div class=\"row\" style=\"text-align: center;\">\n        <div class=\"col-lg-4\">\n            <div class=\"card\">\n              <img\n                class=\"card-img-top\"\n                src=\"./assets/img/curso/unha-curso01/escola-designer-de-unhas.png\"\n                alt=\"Curso Sobrancelhas Perfeitas\"\n              />\n              <div class=\"card-body\">\n                <h4 class=\"card-title\">Curso de Designer de Unhas</h4>\n                <p>Escola Designer de Unhas</p>\n                <div>\n                  <span style=\"color: orange; padding-right: 5px\">4.5</span>\n                  <span class=\"fa fa-star checked\"></span>\n                  <span class=\"fa fa-star checked\"></span>\n                  <span class=\"fa fa-star checked\"></span>\n                  <span class=\"fa fa-star checked\"></span>\n                  <span class=\"fa fa-star\"></span>\n                </div>\n                <p class=\"card-text\">\n                  Curso Completo Alongamento de Unhas com Paola Chaves possui 47 vídeo\n                  aulas exclusivas, onde a aluna aprenderá do zero como fazer unhas de\n                  qualidade com aspecto de naturalidade.\n                </p>\n                <a [routerLink]=\"['/unha-curso01']\" class=\"btn btn-primary\">Mais</a>\n              </div>\n            </div>\n          </div>\n      <div class=\"col-lg-4\">\n        <div class=\"card\">\n          <img\n            class=\"card-img-top\"\n            src=\"../../../../assets/img/curso/manicure-faby/manicure.jpg\"\n            alt=\"Curso de Manicure e Pedicure\"\n          />\n          <div class=\"card-body\">\n            <h4 class=\"card-title\">Curso de Manicure e Pedicure</h4>\n            <p>Faby Cardoso</p>\n            <div>\n              <span style=\"color: orange; padding-right: 5px\">4.8</span>\n              <span class=\"fa fa-star checked\"></span>\n              <span class=\"fa fa-star checked\"></span>\n              <span class=\"fa fa-star checked\"></span>\n              <span class=\"fa fa-star checked\"></span>\n              <span class=\"fa fa-star\"></span>\n            </div>\n            <p class=\"card-text\">\n                Desde técnicas de cutilagem na laranja para iniciantes que tem medo de machucar os dedos da cliente até às aulas sobre cutilação em pé e mão.\n            </p>\n            <a routerLink=\"/manicure\" class=\"btn btn-primary\"\n              >Mais</a\n            >\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  ");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component.html":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component.html ***!
+  \******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\" content\">\n  <nav aria-label=\"breadcrumb\">\n    <ol class=\"breadcrumb\">\n      <li class=\"breadcrumb-item\"><a routerLink=\"/inicio\">Início</a></li>\n      <li class=\"breadcrumb-item active\" aria-current=\"page\">Império do Bronze</li>\n    </ol>\n  </nav>\n  \n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 5px;\">\n          <img alt=\"Curso de Bronzeamanto\" src=\"./assets/img/curso/imperio-bronze/curso-imperio-bronze.png\" />\n      </div>\n      <div class=\" card card-chart\" style=\"margin-top: 8px; margin-bottom: 5px; \">\n        <a href=\"http://mon.net.br/y27nj\" target=\"_blank\" class=\"btn btn-danger texto-responsivo-md\">SIM, EU QUERO O MELHOR CURSO DE BRONZEAMENTO</a>\n      </div>\n    </div>\n    <div class=\" col-lg-7\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 0px;\">\n            <div class=\"embed-responsive embed-responsive-16by9\">\n              <iframe \n                src=\"https://www.youtube.com/embed/Y3yCZOaQSJk?start=32\" \n                frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n        </div>\n      </div>\n      <div class=\" card card-chart\" style=\"margin-bottom: 10px;\">\n        <a href=\"https://imperiodobronze.com.br/?mcr=AFU10744381\" target=\"_blank\" class=\"btn btn-info texto-responsivo-lg\">QUERO SABER MAIS SOBRE O MELHOR CURSO DE BRONZEAMENTO</a>\n      </div>\n    </div>\n  </div>\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n        <img alt=\"Imperio do Bronze\" src=\"./assets/img/curso/imperio-bronze/imperio-bronze.png\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"Modelo de Bequini com fita\" src=\"./assets/img/curso/imperio-bronze/modelo-de-bequini.png\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"bronze perfeito\" src=\"./assets/img/curso/imperio-bronze/bronze-perfeito.png\" />\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/maquiagem/maquiagem-web/maquiagem-web.component.html":
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/maquiagem/maquiagem-web/maquiagem-web.component.html ***!
+  \*************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\" content\">\n  <nav aria-label=\"breadcrumb\">\n    <ol class=\"breadcrumb\">\n      <li class=\"breadcrumb-item\"><a routerLink=\"/inicio\">Início</a></li>\n      <li class=\"breadcrumb-item active\" aria-current=\"page\">Maquiagem na Web</li>\n    </ol>\n  </nav>\n  \n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 5px;\">\n          <img alt=\"curso Maquiagem na web\" src=\"./assets/img/curso/maquiagem-web/2.jpg\" />\n      </div>\n      <div class=\" card card-chart\" style=\"margin-top: 8px; margin-bottom: 5px; \">\n        <a href=\"https://www.hotmart.com/product/maquiagemnaweb/J3864784O?ref=S38497463D\" target=\"_blank\" class=\"btn btn-danger texto-responsivo-md\">SIM, EU QUERO O MELHOR CURSO DE MAQUIAGEM</a>\n      </div>\n    </div>\n    <div class=\" col-lg-7\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 0px;\">\n            <div class=\"embed-responsive embed-responsive-16by9\">\n              <iframe \n                src=\"https://www.youtube.com/embed/bcPGCQPtpnw?start=32\" \n                frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n        </div>\n      </div>\n      <div class=\" card card-chart\" style=\"margin-bottom: 10px;\">\n        <a href=\"https://www.cursomaquiagemnaweb.com/?ref=S38497463D\" target=\"_blank\" class=\"btn btn-info texto-responsivo-lg\">QUERO SABER MAIS SOBRE O MELHOR CURSO DE MAQUIAGEM</a>\n      </div>\n    </div>\n  </div>\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n        <img alt=\"curso de maquiagem\" src=\"./assets/img/curso/maquiagem-web/IMG-20190916-WA0139.png\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"maquiagem web\" src=\"./assets/img/curso/maquiagem-web/IMG-20190807-WA00090.png\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"maquiagem\" src=\"./assets/img/curso/maquiagem-web/IMG-20190330-WA0009.png\" />\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.html":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.html ***!
+  \*********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\" content\">\n  <nav aria-label=\"breadcrumb\">\n    <ol class=\"breadcrumb\">\n      <li class=\"breadcrumb-item\"><a routerLink=\"/inicio\">Início</a></li>\n      <li class=\"breadcrumb-item\"><a routerLink=\"/saude\">Saúde</a></li>\n      <li class=\"breadcrumb-item active\" aria-current=\"page\">Dieta de 17 dias</li>\n    </ol>\n  </nav>\n\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 5px;\">\n        <a href=\"https://go.hotmart.com/W41230879H\" target=\"_blank\" rel=\"nofollow\">\n          <img alt=\"Dieta de 17 dias\" src=\"../../../../../assets/img/curso/saude/dietade17dias/dietade17dias.jpg\" />\n        </a>\n      </div>\n      <div class=\" card card-chart\" style=\"margin-top: 8px; margin-bottom: 5px;\">\n        <a href=\"https://go.hotmart.com/W41230879H?ap=d915\" target=\"_blank\"\n          class=\"btn btn-danger texto-responsivo-md\">SIM, EU QUERO EMAGRECER</a>\n      </div>\n    </div>\n    <div class=\" col-lg-7\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 0px;\">\n        <div class=\"embed-responsive embed-responsive-16by9\">\n          <iframe src=\"https://www.youtube.com/embed/gwv67cIBih4?start=32\" frameborder=\"0\"\n            allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>\n          </iframe>\n        </div>\n      </div>\n      <div class=\" card card-chart\" style=\"margin-bottom: 10px;\">\n        <a href=\"https://www.acessoadietade17dias.com.br/promocao/?ref=W41230879H\" target=\"_blank\"\n          class=\"btn btn-info texto-responsivo-lg\">QUERO SABER MAIS SOBRE A DIETA DE 17 DIAS</a>\n      </div>\n    </div>\n  </div>\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n        <img alt=\"alimentação saudavel\"\n          src=\"../../../../../assets/img/curso/saude/dietade17dias/alimentacao-saudavel.jpg\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n        <img alt=\"reducao de medida\" src=\"../../../../../assets/img/curso/saude/dietade17dias/reducao-medida.png\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n        <img alt=\"suco verde\" src=\"../../../../../assets/img/curso/saude/dietade17dias/suco-verde.png\" />\n      </div>\n    </div>\n  </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/sobrancelhas/sobrancelhas-perfeitas/sobrancelhas-perfeitas.component.html":
+/*!**********************************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/sobrancelhas/sobrancelhas-perfeitas/sobrancelhas-perfeitas.component.html ***!
+  \**********************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\" content\">\n  <nav aria-label=\"breadcrumb\">\n    <ol class=\"breadcrumb\">\n      <li class=\"breadcrumb-item\"><a routerLink=\"/inicio\">Início</a></li>\n      <li class=\"breadcrumb-item active\" aria-current=\"page\">Sobrancelhas Perfeitas</li>\n    </ol>\n  </nav>\n  \n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 5px;\">\n          <img alt=\"Curso Sobrancelha Perfeita\" src=\"./assets/img/curso/sobrancelha-perfeita/sobrancelhas_perfeitas4.png\" />\n      </div>\n      <div class=\" card card-chart\" style=\"margin-top: 8px; margin-bottom: 5px;\">\n        <a href=\"https://pay.hotmart.com/J4108478E?ref=D38199943H\" target=\"_blank\" class=\"btn btn-danger texto-responsivo-md\">SIM, EU QUERO O MELHOR CURSO DE SOBRANCELHAS</a>\n      </div>\n    </div>\n    <div class=\" col-lg-7\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 0px;\">\n            <div class=\"embed-responsive embed-responsive-16by9\">\n              <iframe \n                src=\"https://www.youtube.com/embed/FxEYqxh0GMI?start=32\" \n                frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n        </div>\n      </div>\n      <div class=\" card card-chart\" style=\"margin-bottom: 10px;\">\n        <a href=\"https://www.cursosobrancelhasperfeitas.com/?ref=D38199943H\" target=\"_blank\" class=\"btn btn-info texto-responsivo-lg\">QUERO SABER MAIS SOBRE O MELHOR CURSO DE SOBRANCELHAS</a>\n      </div>\n    </div>\n  </div>\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"Curso Sobrancelha\" src=\"./assets/img/curso/sobrancelha-perfeita/3.jpg\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"Designer sobrancelha\" src=\"./assets/img/curso/sobrancelha-perfeita/5.jpg\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"sobrancelha desenhada\" src=\"./assets/img/curso/sobrancelha-perfeita/8.jpg\" />\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/unhas/unha-curso/unha-curso01.component.html":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/unhas/unha-curso/unha-curso01.component.html ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\" content\">\n  <nav aria-label=\"breadcrumb\">\n    <ol class=\"breadcrumb\">\n      <li class=\"breadcrumb-item\"><a routerLink=\"/inicio\">Início</a></li>\n      <li class=\"breadcrumb-item active\" aria-current=\"page\">Escola Designer de Unhas</li>\n    </ol>\n  </nav>\n\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 5px;\">\n          <img alt=\"escola designer de unhas\" src=\"./assets/img/curso/unha-curso01/escola-designer-de-unhas.png\" />\n      </div>\n      <div class=\" card card-chart\" style=\"margin-top: 8px; margin-bottom: 5px; \">\n        <a href=\"https://go.hotmart.com/T40470233I?ap=b64d\" target=\"_blank\" class=\"btn btn-danger texto-responsivo-md\">SIM, EU QUERO O MELHOR CURSO DE UNHAS</a>\n      </div>\n    </div>\n    <div class=\" col-lg-7\">\n      <div class=\" card card-chart\" style=\"margin-bottom: 0px;\">\n            <div class=\"embed-responsive embed-responsive-16by9\">\n              <iframe \n                src=\"https://www.youtube.com/embed/6ggxcAidO28?start=32\" \n                frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n        </div>\n      </div>\n      <div class=\" card card-chart\" style=\"margin-bottom: 10px;\">\n        <a href=\"https://escoladesignerdeunhas.com/?ref=T40470233I\" target=\"_blank\" class=\"btn btn-info texto-responsivo-lg\">QUERO SABER MAIS SOBRE O MELHOR CURSO DE UNHAS</a>\n      </div>\n    </div>\n  </div>\n  <div class=\" row\">\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n        <img alt=\"unha decorada\" src=\"./assets/img/curso/unha-curso01/unha-decorada.png\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"unha de gel\" src=\"./assets/img/curso/unha-curso01/unha-de-gel.png\" />\n      </div>\n    </div>\n    <div class=\" col-lg-4\">\n      <div class=\" card card-chart\">\n            <img alt=\"alongamento de unha\" src=\"./assets/img/curso/unha-curso01/alongamento-de-unha.png\" />\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
 /***/ "./node_modules/tslib/tslib.es6.js":
 /*!*****************************************!*\
   !*** ./node_modules/tslib/tslib.es6.js ***!
@@ -461,6 +552,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/__ivy_ngcc__/fesm5/ng-bootstrap.js");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _components_components_module__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/components.module */ "./src/app/components/components.module.ts");
+/* harmony import */ var _pages_categorias_saude_saude_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/categorias/saude/saude.component */ "./src/app/pages/categorias/saude/saude.component.ts");
+/* harmony import */ var _pages_cursos_saude_dietade17dias_dietade17dias_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/cursos/saude/dietade17dias/dietade17dias.component */ "./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.ts");
+/* harmony import */ var _pages_cursos_maquiagem_maquiagem_web_maquiagem_web_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/cursos/maquiagem/maquiagem-web/maquiagem-web.component */ "./src/app/pages/cursos/maquiagem/maquiagem-web/maquiagem-web.component.ts");
+/* harmony import */ var _pages_cursos_sobrancelhas_sobrancelhas_perfeitas_sobrancelhas_perfeitas_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./pages/cursos/sobrancelhas/sobrancelhas-perfeitas/sobrancelhas-perfeitas.component */ "./src/app/pages/cursos/sobrancelhas/sobrancelhas-perfeitas/sobrancelhas-perfeitas.component.ts");
+/* harmony import */ var _pages_cursos_unhas_unha_curso_unha_curso01_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/cursos/unhas/unha-curso/unha-curso01.component */ "./src/app/pages/cursos/unhas/unha-curso/unha-curso01.component.ts");
+/* harmony import */ var _pages_cursos_bronzeamento_imperio_bronze_imperio_bronze_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component */ "./src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component.ts");
+/* harmony import */ var _pages_categorias_unha_unha_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./pages/categorias/unha/unha.component */ "./src/app/pages/categorias/unha/unha.component.ts");
+
+
+
+
+
+
+
 
 
 
@@ -488,7 +593,16 @@ var AppModule = /** @class */ (function () {
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["AppRoutingModule"],
                 ngx_toastr__WEBPACK_IMPORTED_MODULE_6__["ToastrModule"].forRoot()
             ],
-            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _layouts_admin_layout_admin_layout_component__WEBPACK_IMPORTED_MODULE_8__["AdminLayoutComponent"]],
+            declarations: [
+                _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"],
+                _layouts_admin_layout_admin_layout_component__WEBPACK_IMPORTED_MODULE_8__["AdminLayoutComponent"],
+                _pages_cursos_sobrancelhas_sobrancelhas_perfeitas_sobrancelhas_perfeitas_component__WEBPACK_IMPORTED_MODULE_15__["SobrancelhasPerfeitasComponent"],
+                _pages_cursos_maquiagem_maquiagem_web_maquiagem_web_component__WEBPACK_IMPORTED_MODULE_14__["MaquiagemWebComponent"],
+                _pages_cursos_unhas_unha_curso_unha_curso01_component__WEBPACK_IMPORTED_MODULE_16__["UnhaCurso01Component"],
+                _pages_cursos_bronzeamento_imperio_bronze_imperio_bronze_component__WEBPACK_IMPORTED_MODULE_17__["ImperioBronzeComponent"],
+                _pages_categorias_saude_saude_component__WEBPACK_IMPORTED_MODULE_12__["SaudeComponent"],
+                _pages_cursos_saude_dietade17dias_dietade17dias_component__WEBPACK_IMPORTED_MODULE_13__["Dietade17diasComponent"], _pages_categorias_unha_unha_component__WEBPACK_IMPORTED_MODULE_18__["UnhaComponent"]
+            ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
         })
@@ -851,14 +965,14 @@ var ROUTES = [
         path: "/maquiagem-web",
         title: "Maquiagem na web",
         rtlTitle: "الرموز",
-        icon: "icon-heart-2",
+        icon: "icon-shape-star",
         class: ""
     },
     {
-        path: "/unha-curso01",
-        title: "Unha Designer",
+        path: "/unha",
+        title: "Unhas",
         rtlTitle: "خرائط",
-        icon: "icon-shape-star",
+        icon: "icon-scissors",
         class: ""
     },
     {
@@ -867,7 +981,15 @@ var ROUTES = [
         rtlTitle: "إخطارات",
         icon: "icon-istanbul",
         class: ""
-    } /*,
+    },
+    {
+        path: "/saude",
+        title: "Saúde",
+        rtlTitle: "إخطارات",
+        icon: "icon-heart-2",
+        class: ""
+    }
+    /*,
     {
       path: "/user",
       title: "User Profile",
@@ -985,6 +1107,284 @@ var AdminLayoutComponent = /** @class */ (function () {
         Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
     ], AdminLayoutComponent);
     return AdminLayoutComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/categorias/saude/saude.component.scss":
+/*!*************************************************************!*\
+  !*** ./src/app/pages/categorias/saude/saude.component.scss ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2NhdGVnb3JpYXMvc2F1ZGUvc2F1ZGUuY29tcG9uZW50LnNjc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/pages/categorias/saude/saude.component.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/pages/categorias/saude/saude.component.ts ***!
+  \***********************************************************/
+/*! exports provided: SaudeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SaudeComponent", function() { return SaudeComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+
+
+var SaudeComponent = /** @class */ (function () {
+    function SaudeComponent() {
+    }
+    SaudeComponent.prototype.ngOnInit = function () {
+    };
+    SaudeComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-saude',
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./saude.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/categorias/saude/saude.component.html")).default,
+            styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./saude.component.scss */ "./src/app/pages/categorias/saude/saude.component.scss")).default]
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], SaudeComponent);
+    return SaudeComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/categorias/unha/unha.component.scss":
+/*!***********************************************************!*\
+  !*** ./src/app/pages/categorias/unha/unha.component.scss ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2NhdGVnb3JpYXMvdW5oYS91bmhhLmNvbXBvbmVudC5zY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/pages/categorias/unha/unha.component.ts":
+/*!*********************************************************!*\
+  !*** ./src/app/pages/categorias/unha/unha.component.ts ***!
+  \*********************************************************/
+/*! exports provided: UnhaComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UnhaComponent", function() { return UnhaComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+
+
+var UnhaComponent = /** @class */ (function () {
+    function UnhaComponent() {
+    }
+    UnhaComponent.prototype.ngOnInit = function () {
+    };
+    UnhaComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-unha',
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./unha.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/categorias/unha/unha.component.html")).default,
+            styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./unha.component.scss */ "./src/app/pages/categorias/unha/unha.component.scss")).default]
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], UnhaComponent);
+    return UnhaComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component.ts":
+/*!**************************************************************************************!*\
+  !*** ./src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component.ts ***!
+  \**************************************************************************************/
+/*! exports provided: ImperioBronzeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImperioBronzeComponent", function() { return ImperioBronzeComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
+
+
+
+var ImperioBronzeComponent = /** @class */ (function () {
+    function ImperioBronzeComponent(route, router) {
+        this.route = route;
+        this.router = router;
+    }
+    ImperioBronzeComponent.prototype.ngOnInit = function () { };
+    ImperioBronzeComponent.ctorParameters = function () { return [
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] },
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] }
+    ]; };
+    ImperioBronzeComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: "app-imperio-bronze",
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./imperio-bronze.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/bronzeamento/imperio-bronze/imperio-bronze.component.html")).default
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
+    ], ImperioBronzeComponent);
+    return ImperioBronzeComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/cursos/maquiagem/maquiagem-web/maquiagem-web.component.ts":
+/*!*********************************************************************************!*\
+  !*** ./src/app/pages/cursos/maquiagem/maquiagem-web/maquiagem-web.component.ts ***!
+  \*********************************************************************************/
+/*! exports provided: MaquiagemWebComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MaquiagemWebComponent", function() { return MaquiagemWebComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+
+
+var MaquiagemWebComponent = /** @class */ (function () {
+    function MaquiagemWebComponent() {
+    }
+    MaquiagemWebComponent.prototype.ngOnInit = function () { };
+    MaquiagemWebComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: "app-maquiagem-web",
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./maquiagem-web.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/maquiagem/maquiagem-web/maquiagem-web.component.html")).default
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], MaquiagemWebComponent);
+    return MaquiagemWebComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.scss":
+/*!*******************************************************************************!*\
+  !*** ./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.scss ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2N1cnNvcy9zYXVkZS9kaWV0YWRlMTdkaWFzL2RpZXRhZGUxN2RpYXMuY29tcG9uZW50LnNjc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.ts":
+/*!*****************************************************************************!*\
+  !*** ./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.ts ***!
+  \*****************************************************************************/
+/*! exports provided: Dietade17diasComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Dietade17diasComponent", function() { return Dietade17diasComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+
+
+var Dietade17diasComponent = /** @class */ (function () {
+    function Dietade17diasComponent() {
+    }
+    Dietade17diasComponent.prototype.ngOnInit = function () {
+    };
+    Dietade17diasComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-dietade17dias',
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./dietade17dias.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.html")).default,
+            styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./dietade17dias.component.scss */ "./src/app/pages/cursos/saude/dietade17dias/dietade17dias.component.scss")).default]
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], Dietade17diasComponent);
+    return Dietade17diasComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/cursos/sobrancelhas/sobrancelhas-perfeitas/sobrancelhas-perfeitas.component.ts":
+/*!******************************************************************************************************!*\
+  !*** ./src/app/pages/cursos/sobrancelhas/sobrancelhas-perfeitas/sobrancelhas-perfeitas.component.ts ***!
+  \******************************************************************************************************/
+/*! exports provided: SobrancelhasPerfeitasComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SobrancelhasPerfeitasComponent", function() { return SobrancelhasPerfeitasComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+
+
+var SobrancelhasPerfeitasComponent = /** @class */ (function () {
+    function SobrancelhasPerfeitasComponent() {
+    }
+    SobrancelhasPerfeitasComponent.prototype.ngOnInit = function () { };
+    SobrancelhasPerfeitasComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: "app-sobrancelhas-perfeitas",
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./sobrancelhas-perfeitas.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/sobrancelhas/sobrancelhas-perfeitas/sobrancelhas-perfeitas.component.html")).default
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], SobrancelhasPerfeitasComponent);
+    return SobrancelhasPerfeitasComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/cursos/unhas/unha-curso/unha-curso01.component.ts":
+/*!*************************************************************************!*\
+  !*** ./src/app/pages/cursos/unhas/unha-curso/unha-curso01.component.ts ***!
+  \*************************************************************************/
+/*! exports provided: UnhaCurso01Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UnhaCurso01Component", function() { return UnhaCurso01Component; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+
+
+var UnhaCurso01Component = /** @class */ (function () {
+    function UnhaCurso01Component() {
+    }
+    UnhaCurso01Component.prototype.ngOnInit = function () { };
+    UnhaCurso01Component = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: "app-unha-curso01",
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./unha-curso01.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/cursos/unhas/unha-curso/unha-curso01.component.html")).default
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], UnhaCurso01Component);
+    return UnhaCurso01Component;
 }());
 
 
